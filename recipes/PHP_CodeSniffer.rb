@@ -19,7 +19,7 @@
 
 include_recipe "chef-php-extra::pear"
 
-php_pear "PHP_CodeSniffer" do
+chef_php_extra "PHP_CodeSniffer" do
   version "1.4.5"
   action :install
 end
