@@ -20,6 +20,6 @@
 include_recipe "chef-php-extra::pear"
 
 chef_php_extra_pear "PHP_CodeSniffer" do
-  version "1.4.5"
+  version "#{node['phpcodesniffer']['version']}"
   action :install
 end

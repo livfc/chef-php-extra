@@ -39,3 +39,7 @@ default['xcache']['coverager'] = 'Off'
 default['phpunit']['version'] = '3.6.11'
 
 default['phpredis']['revision'] = 'master'
+
+default['phpcsfixer']['download_url'] = 'http://cs.sensiolabs.org/get/php-cs-fixer.phar'
+
+default['phpcodesniffer']['version'] = '1.4.5'
